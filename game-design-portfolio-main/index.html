@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/default-styles.css">
+    <title>TJ's GDD Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1 class="is-size-1">TJ Larson</h1>
+        <h2 class="is-size-3">Musically Motivated Game Designer</h2>
+        <img src="media/headshot.jpg" alt="A headshot of me">
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#bio">About Me</a></li>
+                <li><a href="#contact-info">Contact Information</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="documents/gameDevelopmentResume.pdf" target="blank">My Resume</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div id="bio">
+                            <h2 class="is-size-3">About Me</h3>
+                            <p>
+                                I am currently a fourth-year Game Design and Development student at the Rochester Institute of Technology, 
+                                with a focus on composing and sound design. I have worked with several teams as a developer, sound designer, 
+                                and QA tester, working together to develop video games for both PC and Switch.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div id="contact-info">
+                            <h2 class="is-size-3">Contact Info</h3>
+                            <p>
+                                Email: tjl7357@rit.edu <br>
+                                Phone Number: (315)-825-1395 <br>
+                                Linkedin: <a href="https://www.linkedin.com/in/tjlarson/">https://www.linkedin.com/in/tjlarson/</a><br>
+                                GitHub: <a href="https://github.com/IAmAFraud">https://github.com/IAmAFraud</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+        <section id="projects">
+            <h2 class="is-size-3">Projects</h2>
+            <div id="project13" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4">That Damn Goat</h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            Compete against your friends while running from a maliciously inclined goat! That Damn Goat is a splitscreen multiplayer
+                            party game developed by a team of students at RIT, lead by a team of RIT faculty for PC and Switch. In this game, players compete in a variety of gamemodes
+                            across a variety of maps, all while a goat does everything in its power to create chaos amongst the players. For this project my role was 
+                            sound designer, composer, and QA analyst, responsible for creating sound effects and music for the project, as well as implementing audio
+                            assets through Wwise. As a QA analyst, I was responsible for checking incoming merge requests to make sure that new updates worked as
+                            intended as well as not breaking any other element of the project, both on PC and Switch.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <iframe width="560" height="315" id="project9video" src="https://youtube.com/embed/UEyrjRRjBVA" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>                
+            </div>
+
+            <div id="project12" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4">Soundwave Song Upload Webserver</h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            This project during my time in a Rich Media Web App Development class at RIT. In this project, I was tasked to use express.js to create an 
+                            interesting and engaging web app along side React.js for the front end and using MongoDB as the database for the back end. The website I 
+                            created was designed to be a web app where a user could create an account and, using this account, upload songs of there own and like the 
+                            songs of other users. Even when not logged in, visiters could browse the homepage, search for songs and users on the site, and view other 
+                            users profiles.
+
+                            If I were to take this project further, my first goal would be to convert the whole web app into a single page application. This has many 
+                            advantages both in terms of server organization and how the information gets displayed, but the biggest goal this step would lead to is 
+                            creating an audio bar at the bottom of the page that continues to play the audio file the user selected to play even when switching from 
+                            the homepage to a user's page. After that, I would start looking into improving the bios of the user to allow a user to create a more 
+                            personalized page as well as additional features such as playlists, uploading multiple songs as albums, etc. Finally, I would want to take 
+                            another deep look at the styling for the whole website and see what steps I could take to improve how the view is presented to a user.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <img src="media/project12img.PNG" alt="Soundwave Homepage"><br/>
+                        <a id="project12Link" href="https://sound-wave-tjl.herokuapp.com/">Link To Website</a>
+                    </div>
+                </div>                
+            </div>
+
+            <div id="project11" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4">X-Wing Squadron Builder</h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            This was a project I made while in IGME 430, learning NodeJS and the HTTP library. This website is a squadron creator for the board game 
+                            X-Wing Tabletop Miniatures, a game where players take turns piloting a squadron of ships from the Star Wars universe trying to out-dogfight 
+                            their opponent. This website lets users create a new squadron and edit the pilots inside of that sqadron.The data I am using comes from a NPM 
+                            package, linked here: 
+                            <a id="xwingPackageLink" href="https://www.npmjs.com/package/xwing-data">https://www.npmjs.com/package/xwing-data</a>
+
+                            This data is stored for half an hour, as after half an hour the webserver restarts and at this point we had not learned how to use a 
+                            database.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <img src="media/project11img.PNG" alt="X-Wing Squadron Builder Homepage"><br/>
+                        <a id="project11Link" href="https://tjl-xwing-project.herokuapp.com/">Link To Website</a>
+                    </div>
+                </div>                
+            </div>
+
+            <div id="project10" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4">Ao Shu Spellslinger</h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            Travel through an ancient china impacted by the discovery and development of arcane alchemy. Ao Shu Spellslinger is an 
+                            isometric action-adventure developed by a team of students from RIT and the Art Center College of Design in California. 
+                            In the game the player explores the magically altered landscapes of China and utilizes the tools that came about from the 
+                            introduction of alchemy to fight back against those who would use this new power for nefarious purposes. I was a programmer 
+                            on this team, whose sole focus was on developing the player controller and the aspects related to that, ranging from movement 
+                            to combat to interactions with elements in the environment.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <img src="media/project10img.PNG" alt="Ao Shu Sample Scene"><br/>
+                        <a id="project10demo" href="https://youtu.be/vFvqvQ4lDhk">Link To Demo Video</a>
+                    </div>
+                </div>                
+            </div>
+
+            <div id="project9" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4"><a href="https://people.rit.edu/tjl7357/330/project3/about.html">Dance Dodge</a></h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            Dance and dodge your way through incoming projectiles for as long as you can. Dance Dodge was the final project for Rich Media 
+                            and Web App Development 1 class I took in the fall of 2021. This project makes use of the canvas and audio elements native to 
+                            HTML and uses them to create a bullet hell game. The game uses the audio element to play the background music and to create 
+                            bars along the top and bottom of the canvas element to represent the lanes of fire. The fetch API is also used to load in 
+                            information pertaining to the difficulty of the game.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <iframe width="560" height="315" id="project9video" src="https://www.youtube.com/embed/OHDdtrMb3Ng" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div id="project8" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4"><a href="https://rocketcatt.itch.io/tiny-little-files">Tiny Little Files</a></h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            Blast your way through waves of enemies and stop Victor Sells from violating the laws of magic! Tiny Little Files is a game 
+                            set in the world of the Dresden Files, done by a team of 5 members. Tiny Little Files is a bullet hell game, where the player 
+                            must fight their way through waves of enemies using two different weapons: a revolver and a blasting rod. To win, the player 
+                            must defeat Victor Sells, the main villain behind this story and an evil sorcerer to boot.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Zl0Ne7akci4" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>                
+            </div>
+
+            <div id="project7" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4"><a href="https://simmer.io/@Sevan/tiny-little-demons">Tiny Little Demons</a></h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            Solve puzzles to summon demons and appease your clients. This project takes place in the world of Ethshar, developed by a 
+                            team of 5 members. The player is a demonologist trying to summon demons, and as such in order to summon demons the player 
+                            must complete the ritual. In this game, the player will place ingredients to fill the outline of a given shape. Placing all of 
+                            the ingredients into the outline without touching any of the lines results in the player successfully summoning the demon.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/N2aEZQkDWZw" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>                
+            </div>
+
+            <div id="project6" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4"><a href="https://people.rit.edu/tjl7357/330/project1/app.html">Book Search</a></h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            Search for your favorite books or see what books other people are reading! This app was the first project for my Rich Media 
+                            Web App Developent 1 class and had us using multiple new tools and concepts. This app makes use of the Bulma library and 
+                            Google's Books API to create and app that we and other users would find an actual use for. This website uses Google Books API 
+                            to search for books and allows for users to save these books to two different lists, based on whether they have read them or not.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <iframe width="560" height="315" id="project6video" src="https://www.youtube.com/embed/WpxPv96W8M0" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>                
+            </div>
+
+            <div id="project5" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4">Tiny Little Kingdoms</h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            Tiny Little Kingdoms is a 2 to 4 player strategy game set in the world of Ethshar. It takes inspiration from games like Risk
+                            with its mechanics of moving armies across the world board and Inis with a drafting phase of special cards. The game round 
+                            takes place over 3 phase: drafting, planning, and execution. During the drafting phase players select a card from a pile before 
+                            passing that pile onto the next player. Then players will place the cards they collect in a specific order during the planning 
+                            phase, which determines the order they are used in during the execution phase.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <iframe width="560" height="315" id="project5video" src="https://www.youtube.com/embed/Snfqvqq6R7k" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="project4" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4"><a href="https://people.rit.edu/~tjl7357/235/project3/">Othello</a></h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            Play the classic game of Othello, place your pieces and outsmart your opponent to have your color the most prevalent on the 
+                            board. Othello is the third project I worked on for Intro to Game Web Tech and was my first experience using Pixi.JS and 
+                            howler.JS. This site allows for two people to play through the game of Othello, with players placing tokens on the board 
+                            trying to flip other tokens to their color.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <img src="media/project4img.PNG" alt="Othello Website">
+                    </div>
+                </div>
+            </div>
+
+            <div id="project3" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4"><a href="https://people.rit.edu/tjl7357/235/project2/">MTG Card Search</a></h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            Search for your favorite cards from Magic: The Gathering and save them for your reference! MTG Card Search was the second project 
+                            I worked on for Intro to Game Web Tech and served as my first foray into using APIs, namely the 
+                            <a href="https://docs.magicthegathering.io/">Magic: The Gathering API</a>. Using this site you are able to search for cards 
+                            from Magic: The Gathering using multiple parameters and save them to local storage for easy return access.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <img src="media/project3img.PNG" alt="MTG Card Search Main Page">
+                    </div>
+                </div> 
+            </div>
+
+            <div id="project2" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4"><a href="https://sketchfab.com/3d-models/ukelele-402d0c1bcccb4d4081ce0b155327ad5c">Ukulele Model</a></h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            This is a 3D model I made in the fall of 2020 for 3D Animation and Asset Production class. I used a ukulele in my house 
+                            as a reference and did the modeling, UV unwrapping, and applying textures to them in Maya.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <img src="media/project2img.JPG" alt="Ukulele 3D Model">
+                    </div>
+                </div>
+            </div>
+
+            <div id="project1" class="project container">
+                <div class="columns">
+                    <div class="column">
+                        <!--Header w/ Possible Link-->
+                        <h3 class="is-size-4">Error 404</h3>
+                        <p class="project-p">
+                            <!--Description of Project-->
+                            Error 404 is a class project that I did in a team of 4 during my Game Development and Algorithmic Problem Solving class in 
+                            the Spring of 2020. It is a 2D platforming game where you, the player, are trying to traverse the level and reach the opening
+                            at the right edge of the screen while collecting coins and dodging spike traps. My focus in this project was to design and test
+                            the levels in the game and to develop the code used to save and load the level design into the game. This is also my first ever
+                            finished game!
+                        </p>
+                    </div>
+                    <div class="column">
+                        <!--Image/Video-->
+                        <img src="media/project1img.JPG" alt="Sample from Error 404">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
